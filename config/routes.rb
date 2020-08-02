@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   get '/birds' => 'birds#index'
-  get '/birds/:id' => 'bids#show'
+  get '/birds/:id' => 'birds#show'
 end
